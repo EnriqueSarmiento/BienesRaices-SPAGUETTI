@@ -1,0 +1,19 @@
+{
+    "name": "pupusito/bienesraices_inicio",
+    "description": "Creando un proyecto con POO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Enrique Sarmiento",
+            "email": "jeisone.sarmiento@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.5"
+    },
+    "autoload":{
+        "psr-4":{
+            "App\\" : "./classes"
+        }
+    }
+}
